@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "../include/stb_image.h"
+#include "../dep/stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "../include/stb_image_write.h"
+#include "../dep/stb_image_write.h"
 #include "../include/image_converter.h"
 
 int main(int argc, char** argv)
